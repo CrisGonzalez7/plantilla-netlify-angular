@@ -1,17 +1,16 @@
-# Angular on Netlify Quick Start Template    
+# Plantilla de Angular para Netlify
 ![netlify + angular logo](https://res.cloudinary.com/dzkoxrsdj/image/upload/v1646339469/angular_wzrs5o.png)
 
-This is a bare-bones Angular project that has everything you need to quickly deploy it to [Netlify](https://netlify.com). 
-
-Click this button and it will help you create a new repo, create a new Netlify project, and deploy!
-
-[![Deploy to Netlify Button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/angular-quickstart)
+Este es un proyecto angular básico que contiene todo lo necesario para implementarlo directamente en [Netlify](https://netlify.com). 
 
 ## Table of Contents:
 
-- [Setup](#setup)
-- [Deploying](#deploying)
-- [Styling](#styling)
+- [Clonar Repositorio](#clonar)
+- [Netlify CLI](#netlify-cli)
+  - [Compartir Proyecto](#compartir-proyecto)
+  - [Token en GitHub](#token-en-github)
+  - [Terminal VSCode](#terminal-vscode)
+- [Subiendo a GitHub](#subiendo-a-github)
   - [Notes on Styling](#notes-on-styling)
   - [Remove Styling](#remove-styling)
 - [Testing](#testing)
@@ -20,21 +19,127 @@ Click this button and it will help you create a new repo, create a new Netlify p
   - [Removing Cypress](#removing-cypress)
 - [Angular + Netlify Resources](#angular--netlify-resources)
 
-## Setup
+## Clonar Repositorio
 
-Clone this repo with one of these options:
-- Click the 'Deploy to Netlify' button above
-- Click the 'Use this template' button at the top of the page
-- Or via the command line `git clone https://github.com/netlify-templates/angular-quickstart`
+Para clonar facilmente este repositorio sigue los siguientes pasos:
+- Crea una carpeta en tu computador donde almacenarás el proyecto
+- Abre la carpeta con [Visual Studio Code](https://code.visualstudio.com)
+- Ve al menú superior de Visual Studio Code y abre un terminal
+- Ejecuta el siguiente comando 
 
-Then install the necessary packages and run the project locally to make sure everything works.
+```bash
+git clone https://github.com/veronica-gonzalez/plantilla-netlify-angular.git
+```
+
+- Entra a la carpeta del proyecto con el comando:
+
+```bash
+cd angular-quickstart
+```
+
+Para instalar los paquetes necesarios ejecuta el siguiente comando:
 
 ```bash
 npm install
+```
+
+Para verificar que esté funcionando de manera correcta puedes levantar un servidor local con el comando:
+
+```bash
 ng serve
 ```
 
-Alternatively, you can run this locally with [the Netlify CLI](https://docs.netlify.com/cli/get-started/)'s `netlify dev` command for more options like receiving a live preview to share (`netlify dev --live`) and the ability to test [Netlify Functions](https://www.netlify.com/products/functions) and [redirects](https://docs.netlify.com/routing/redirects/). 
+¡Ya puedes empezar a trabajar en tu proyecto!
+
+## Netlify CLI
+
+También puedes ejecutar tu proyecto localmente utilizando [Netlify CLI](https://docs.netlify.com/cli/get-started/)
+
+Para iniciar la instalación sigue los siguientes pasos:
+- En la terminal ejecuta:
+
+```bash
+npm install netlify-cli -g
+```
+
+> Si eres usuario de Ubuntu o alguna distribución basada en Ubuntu utiliza este comando: `sudo npm install netlify-cli -g`
+
+- Una vez terminada la instalación puedes comprobar la versión instalada y encontrar la información básica de la herramienta con el siguiente comando: 
+
+```bash
+netlify
+```
+
+Para ejecutar tu proyecto de manera local utiliza:
+
+```bash
+netlify dev
+```
+
+### Compartir Proyecto
+
+Para conectarte con Netlify y poder compartir tu proyecto en la web ejecuta: 
+
+```bash
+netlify init
+```
+
+Esto te abrirá una pestaña en el navegador donde deberás acceder a tu cuenta de Netlify o crear una cuenta si no la posees.
+
+Una vez hayas ingresado a Netlify te llevará a una pantalla donde te pedirá autorizar a la aplicacción Netlify CLI, y te entregará detalles sobre los permisos que le concederás. Básicamente se trata de una autorización para que Netlify CLI pueda crear y administrar sitios en tus equipos de Netlify. Y puedes revocar el acceso cuando así lo desees. Haces clic en `Authorize`, te saldrá una pantalla en la cual se confirma que la autorización fue concedida con éxito y puedes cerrar esa pestaña del navegador. 
+
+Volviendo a Visual Studio Code te saldrá el siguiente mensaje: 
+
+> You are now logged into your Netlify account!
+
+Y también te preguntará:
+
+> How do you want to link this folder to a site?
+
+Te saldrán dos opciones 
+
+> ⇄  Connect this directory to an existing Netlify site 
+  +  Create & configure a new site 
+ 
+Selecciona `+  Create & configure a new site` utilizando las flechas `subir` y `bajar` de tu teclado y presiona `Enter`
+
+Luego te aparecerá una linea que dice `Team`, selecciona el equipo que deseas utilizar y presiona `Enter`
+
+Te aparecerá una linea que dice `Site name` y por defecto te entragará un nombre entre paréntesis, puedes cambiarlo de inmediato borrando la línea e introduciendo el nombre que deseas ponerle a tu sitio. Si no hay problemas con el nombre te saldrá un mensaje que dice `Site Created` y te entregará los siguientes detalles: 
+
+`Admin URL`
+`URL`
+`Site ID`
+
+Luego te pedirá acceso a tu cuenta de GitHub para configurar Webhooks y Deploy Keys. Puedes autorizar a través de Netlify o con un token de GitHub. Selecciona la opción que mejor te parezca. En mi caso prefiero autorizar con un Token de GitHub. 
+
+
+### Token en GitHub
+
+Para poder obtener un Token en GitHub en el menú deber ir a `settings`, luego en las opciones de la columna izquierda haces clic en `Developer Settings` luego vas a `Personal access tokens`y en la esquina superior derecha haces clic en el botón `Generate new token`. 
+
+En Note colocas un nombre que identifique al Token, ejemplo `Token para Netlify`
+En `Expiration` te recomiendo dejarlo en `30 days`
+En `Select scopes`te recomiendo seleccionar todas las opciones para no tener problemas más adelante
+
+Luego haces clic en el botón `Generate token` 
+
+Es importante que lo copies y lo utilices de inmediato ya que GitHub no te permite tener acceso nuevamente al token. 
+
+## Terminal VSCode
+
+Volviendo al terminal de Visual Studio Code (VSCode) debes pegar el token de Github y luego te aparecerá una linea que dice `Your build command` y te recomiendo dejarlo por defecto, solo presiona `Enter` 
+
+Luego te aparece otra linea que dice `Directory to deploy`, esta debes dejarla por defecto para no tener problemas al desplegar el sitio. 
+
+
+
+
+
+
+
+
+`netlify dev` command for more options like receiving a live preview to share (`netlify dev --live`) and the ability to test [Netlify Functions](https://www.netlify.com/products/functions) and [redirects](https://docs.netlify.com/routing/redirects/). 
 
 > 🚨 If you decide to change the project name be sure to change it everywhere in the project including the [Netlify configuration file, `netlify.toml`](./netlify.toml), as there are many places in Angular projects where the project name is used. A quick fix is to find/replace all instances of `angular-quickstart` with your project name.
 
