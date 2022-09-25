@@ -54,7 +54,7 @@ ng serve
 
 > Si te lanza el siguiente mensaje `? Port 4200 is already in use. Would you like to use a different port?` pon la letra `y` y presiona `enter`
 
-Si todo salió correctamente, te debería lanzar el siguiente mensaje `** Angular Live Development Server is listening on localhost:[NUMERO], open your browser on http://localhost:[NUMERO]/ **
+Si todo salió correctamente, te debería lanzar el siguiente mensaje `** Angular Live Development Server is listening on localhost:[NUMERO], open your browser on http://localhost:[NUMERO]/ **`
 
 Puedes ingresar directamente al link haciendo clic con la tecla `ctrl` presionada. 
 
