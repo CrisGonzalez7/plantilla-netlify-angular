@@ -320,9 +320,13 @@ git push -u origin [NOMBRE DE LA RAMA]
 
 ### Mezclando con Main 
 
-Para mezclar la rama creada con la rama main (que es la principal), debes ir al link de tu repositorio en [GitHub](https://github.com/) (si lo olvidaste puedes acceder a él con el comando `git remote -v`) y es probable que te aparezca un mensaje como este ` [NOMBRE DE LA RAMA] had recent pushes [TIEMPO] ago`, y al lado un botón que diga `Compare & pull request`
+Para mezclar la rama creada con la rama main (que es la principal), debes ir al link de tu repositorio en [GitHub](https://github.com/)
 
-Si no te sale ese mensaje puedes hacer clic en `main` luego ir a la rama en cuestión y en `contribute` hacer clic en `Open Pull Request`
+> Si lo olvidaste el link de tu repositorio puedes acceder a él con el comando `git remote -v`
+
+- Una vez en GitHub, es probable que te aparezca un mensaje como este ` [NOMBRE DE LA RAMA] had recent pushes [TIEMPO] ago`, y al lado un botón que diga `Compare & pull request`
+
+> Si no te sale ese mensaje puedes hacer clic en `main` luego ir a la rama en cuestión y en `contribute` hacer clic en `Open Pull Request`
 
 En Write puedes escribir una descripción de tu proyecto (si quieres) y presionar `Create pull request`
 
@@ -332,7 +336,7 @@ Puedes ir a la pestaña `Code` para ver los cambios
 
 ## Configurando Netlify con GitHub
 
-En este momento tu proyecto en Netlify está linkeado con el [repositorio original](https://github.com/veronica-gonzalez/plantilla-netlify-angular), para modificar esto, ve a la terminal de VSCode y escribe el siguiente comando:
+En este momento tu proyecto en Netlify está linkeado con tu repositorio en GitHub. Para comprobar esto ejecuta: 
 
 ```bash
 netlify open
@@ -340,15 +344,7 @@ netlify open
 
 Esto te abrirá una pestaña en el navegador con la página de administración de tu sitio. 
 
-Para que compruebes desde dónde se está desplegando tu sitio, debajo del link de tu web haz clic en `GitHub`, esto te abrirá el repositorio al cual está linkeado.
-
-Para modificarlo vuelve a Netlify y haz clic en `Site Settings`. Luego en el menú de tu izquierda haz clic en `Build & Deploy`. Luego en `Manage repository` ve a `Link to a different repository` y conecta GitHub con Netlify. Selecciona el repositorio que quieras linkear con Netlify. Si no te aparece puedes hacer clic en `Can’t see your repo here? Configure the Netlify ap on GitHub`.
-
-Luego que hayas elegido el repositorio, en la siguiente pantalla dejas la configuración tal como está, y haces clic en `Deploy site`.
-
-Esperas a que termine de trabajar (puedes verificar el estado del sitio en `Production deploys`, y recargar la página hasta que diga `Publisher`). 
-
-Luego de esto, debajo del link de tu sitio debería aparecer el repositorio de GitHub linkeado.
+- Debajo del link de tu web haz clic en `GitHub`, esto te abrirá el repositorio al cual está linkeado.
 
 Por último, haz clic en el link de tu sitio para verificar que se haya desplegado de forma correcta.
 
