@@ -352,7 +352,7 @@ Desde este momento, cada vez que actualices la rama `Main`, los cambios se verá
 
 ## Agradecimientos
 
-Si este tutorial fue de ayuda para ti, te invito a que me agradezcas dándome una estrella en el proyecto, compartiendo este tutorial en tus Redes Sociales (o directamente con tus amigos) y [comentando](https://github.com/veronica-gonzalez/plantilla-netlify-angular/issues/new) en caso de algún error o problema que hayas tenido. 
+Si este tutorial fue de ayuda para ti, te invito a que me agradezcas dándome una estrella en el proyecto (en el menú superior derecho), compartiendo este tutorial en tus Redes Sociales (o directamente con tus amigos), y [comentando](https://github.com/veronica-gonzalez/plantilla-netlify-angular/issues/new) en caso de algún error o problema que hayas tenido. 
 
 ## FAQs
 
