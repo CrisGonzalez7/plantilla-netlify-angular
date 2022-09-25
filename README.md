@@ -98,7 +98,17 @@ Debería abrirse tu proyecto automáticamente en el navegador.
 
 ### Compartir Proyecto
 
-Para conectarte con Netlify y poder compartir tu proyecto en la web ejecuta: 
+Para conectarte con Netlify y poder compartir tu proyecto en la web:
+
+- Abre un nuevo terminal haciendo clic en `+`en la sección de la terminal de Visual Studio Code. 
+
+- Luego, entra a la carpeta del proyecto con el comando:
+
+```bash
+cd [NOMBRE CARPETA]
+```
+
+- Ejecuta: 
 
 ```bash
 netlify init
