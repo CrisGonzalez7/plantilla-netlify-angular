@@ -10,7 +10,6 @@ Este es un proyecto angular básico que contiene todo lo necesario para implemen
   - [Compartir Proyecto](#compartir-proyecto)
   - [Token en GitHub](#token-en-github)
   - [Terminal VSCode](#terminal-vscode)
-- [Subiendo a GitHub](#subiendo-a-github)
 - [Configurando Repositorio Personal](#configurando-repositorio-personal)
   - [Primer Commit](#primer-commit)
   - [Mezclando con Main](#mezclando-con-main)
@@ -188,10 +187,7 @@ En este momento el sitio está linkeado al [repositorio original](https://github
 - Ingresar a `New repository`
 - En `Repository name` ingresa el nombre con el que deseas identificar a tu sitio
 - Luego ingresa a `Create repository`
-
-# Editar aquí
-
-- En `Code` copia la URL que aparece en `HTTPS`
+- En `Quick setup — if you’ve done this kind of thing before` copia la URL que aparece en `HTTPS`
 
 En el terminal de VSCode ejecuta el siguiente comando: 
 
