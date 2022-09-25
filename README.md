@@ -140,6 +140,40 @@ Para verificar que los cambios se guardaron correctamente `Ctrl` + `Shift` + `G`
 
 > Si no te funciona, puedes ir directamente a la opción bajo la lupa en el panel izquierdo, la cual se llama `Control de código fuente`.
 
+Y debería aparecer un listado con 9 archivos que han sufrido modificaciones. 
+
+### Subir los cambios
+
+Vamos a actualizar los archivos en GitHub para que contengan el nuevo nombre del proyecto. PAra esto vamos a verificar que esté bien linkeado nuestro proyecto con el repositorio de GitHub.
+
+- Ejecuta el siguiente comando: 
+
+```bash
+git remote -v
+```
+
+Esto debería darte como resultado el link de tu repositorio. 
+
+- Para ver los archivos que han sido modificados ejecuta: 
+
+```bash
+git status
+```
+
+- Para poder subir los cambios a GitHub ejecuta: 
+
+```bash
+git add .
+git commit -m "[DESCRIPCION DEL COMMIT]"
+```
+
+- Y luego: 
+
+```bash
+git push -u origin main
+```
+
+
 ### Compartir Proyecto
 
 Para conectarte con Netlify y poder compartir tu proyecto en la web:
