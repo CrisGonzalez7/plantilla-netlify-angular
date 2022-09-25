@@ -178,7 +178,10 @@ Luego te pedirá acceso a tu cuenta de GitHub para configurar Webhooks y Deploy 
 
 #### Autorizar con Netlify
 
+- Selecciona `Authorize with GitHub through app.netlify.com`. Esto te abrirá una pestaña en el navegador que dice `Sign in to Netlify CLI`
+- En `Connect to Git provider` selecciona GitHub.
 
+Una vez hayas realizado todos los pasos ve a la sección [Publicando el Proyecto](#publicando-el-proyecto)
 
 #### Token en GitHub
 
