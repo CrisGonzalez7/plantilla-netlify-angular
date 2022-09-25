@@ -11,7 +11,7 @@ Este es un proyecto angular básico que contiene todo lo necesario para implemen
   - [Token en GitHub](#token-en-github)
   - [Terminal VSCode](#terminal-vscode)
 - [Configurando Repositorio Personal](#configurando-repositorio-personal)
-  - [Primer Commit](#primer-commit)
+  - [Subiendo cambios](#subiendo-cambios)
   - [Mezclando con Main](#mezclando-con-main)
 - [Configurando Netlify con GitHub](#configurando-netlify-con-github)
 
@@ -202,9 +202,13 @@ Verifica si se actualizó la URL con el siguiente comando:
 git remote -v
 ```
 
-Debe aparecer la URL de tu GitHub
+Debe aparecer la URL de tu GitHub. Para subir tu proyecto a GitHub ejecuta:
 
-### Primer Commit
+```bash
+git push -u origin main
+```
+
+### Subiendo cambios
 
 Te recomiendo trabajar en una rama aparte de `main`.
 
