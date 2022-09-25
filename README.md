@@ -279,8 +279,8 @@ Luego que hayas elegido el repositorio, en la siguiente pantalla dejas la config
 
 Esperas a que termine de trabajar (puedes verificar el estado del sitio en `Production deploys`, y recargar la página hasta que diga `Publisher`). 
 
-Luego de esto, debajo del link de tu sitio debería aparecer el linkeado.
+Luego de esto, debajo del link de tu sitio debería aparecer el repositorio de GitHub linkeado.
 
 Por último, haz clic en el link de tu sitio para verificar que se haya desplegado de forma correcta.
 
-Desde este momento, cada vez que actualices la rama `Main`, los cambiios se verán reflejados en Netifly de forma automática. 
+Desde este momento, cada vez que actualices la rama `Main`, los cambios se verán reflejados en Netifly de forma automática. 
