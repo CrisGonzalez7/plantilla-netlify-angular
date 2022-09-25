@@ -116,7 +116,8 @@ netlify init
 
 Esto te abrirá una pestaña en el navegador donde deberás acceder a tu cuenta de Netlify, o crear una cuenta si no la posees.
 
-Una vez hayas ingresado a Netlify, te llevará a una pantalla donde te pedirá autorizar a la aplicacción Netlify CLI, y te entregará detalles sobre los permisos que le concederás. Básicamente se trata de una autorización para que Netlify CLI pueda crear y administrar sitios en tus equipos de Netlify. Y puedes revocar el acceso cuando así lo desees. 
+Una vez hayas ingresado a Netlify, te llevará a una pantalla donde te pedirá autorizar a la aplicacción Netlify CLI, y te entregará detalles sobre los permisos que le concederás. Básicamente se trata de una autorización para que Netlify CLI pueda crear y administrar sitios en tus equipos de Netlify. Puedes revocar el acceso cuando así lo desees. 
+
 Haces clic en `Authorize`, y te saldrá una pantalla en la cual se confirma que la autorización fue concedida con éxito; ya puedes cerrar esa pestaña del navegador. 
 
 Volviendo a Visual Studio Code te saldrá el siguiente mensaje: 
