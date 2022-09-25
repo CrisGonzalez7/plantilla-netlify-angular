@@ -202,7 +202,9 @@ Verifica si se actualizó la URL con el siguiente comando:
 git remote -v
 ```
 
-Debe aparecer la URL de tu GitHub. Para subir tu proyecto a GitHub ejecuta:
+Debe aparecer la URL de tu GitHub. 
+
+Para subir tu proyecto a GitHub ejecuta:
 
 ```bash
 git push -u origin main
@@ -226,15 +228,25 @@ git branch [NOMBRE DE LA RAMA]
 git checkout [NOMBRE DE LA RAMA]
 ```
 
-Para poder subir los cambios a GitHub ejecuta: 
+Haz los cambios que desees en tu proyecto.
 
+Para ver los archivos que han sido modificados ejecuta: 
 
 ```bash
-git pull --allow-unrelated-histories origin [NOMBRE DE LA RAMA]
+git status
+```
+
+Para poder subir los cambios a GitHub ejecuta: 
+
+```bash
+git add .
+```
+
+```bash
+git commit -m "[DESCRIPCION DEL COMMIT]"
 ```
 
 Y luego: 
-
 
 ```bash
 git push -u origin [NOMBRE DE LA RAMA]
