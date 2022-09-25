@@ -7,9 +7,9 @@ Este es un proyecto angular básico que contiene todo lo necesario para implemen
 
 - [Usar este Template](#usar-este-template)
   - [Clonar repositorio](#clonar-repositorio)
-- [Netlify CLI](#netlify-cli)
   - [Cambiar nombre al proyecto](#cambiar-nombre-al-proyecto)
   - [Subir los cambios](#subir-los-cambios)
+- [Netlify CLI](#netlify-cli)
   - [Compartir Proyecto](#compartir-proyecto)
     - [Autorizar con Netlify](#autorizar-con-netlify)
     - [Token en GitHub](#token-en-github)
@@ -70,48 +70,6 @@ ng serve
 Si todo salió correctamente, te debería lanzar el siguiente mensaje `** Angular Live Development Server is listening on localhost:[NUMERO], open your browser on http://localhost:[NUMERO]/ **`
 
 Puedes ingresar directamente al link haciendo clic con la tecla `Ctrl` presionada. 
-
-¡Ya puedes empezar a trabajar en tu proyecto!
-
-> Para dejar de ejecutar el servidor presiona `Ctrl` + `C` en la terminal de Visual Studio Code. 
-
-## Netlify CLI
-
-También puedes ejecutar tu proyecto localmente utilizando [Netlify CLI](https://docs.netlify.com/cli/get-started/)
-
-Para iniciar la instalación sigue los siguientes pasos:
-
-- Abre un nuevo terminal haciendo clic en `+` en la sección de la terminal de Visual Studio Code. 
-
-- Luego, entra a la carpeta del proyecto con el comando:
-
-```bash
-cd [NOMBRE CARPETA]
-```
-
-- En la terminal ejecuta:
-
-```bash
-npm install netlify-cli -g
-```
-
-> Si eres usuario de Ubuntu, o alguna otra distribución basada en Ubuntu, utiliza este comando: `sudo npm install netlify-cli -g`
-
-- Una vez terminada la instalación, puedes comprobar la versión instalada y encontrar información básica de la herramienta, con el siguiente comando: 
-
-```bash
-netlify
-```
-
-Para ejecutar tu proyecto de manera local utiliza:
-
-```bash
-netlify dev
-```
-
-Debería abrirse tu proyecto automáticamente en el navegador.
-
-> Si no se abre de forma automática, puedes ir al mensaje `Server now ready on http://localhost:[NUMERO]` e ingresar al link haciendo clic con la tecla `Ctrl` presionada. 
 
 > Para dejar de ejecutar el servidor presiona `Ctrl` + `C` en la terminal de Visual Studio Code. 
 
@@ -175,6 +133,48 @@ git push -u origin main
 ```
 
 > Si deseas verificar que los cambios fueron subidos correctamente, ingresa al link de tu repositorio y debería aparecer el nombre del commit que haz realizado.
+
+¡Ya puedes empezar a trabajar en tu proyecto!
+
+## Netlify CLI
+
+También puedes ejecutar tu proyecto localmente utilizando [Netlify CLI](https://docs.netlify.com/cli/get-started/)
+
+Para iniciar la instalación sigue los siguientes pasos:
+
+- Abre un nuevo terminal haciendo clic en `+` en la sección de la terminal de Visual Studio Code. 
+
+- Luego, entra a la carpeta del proyecto con el comando:
+
+```bash
+cd [NOMBRE CARPETA]
+```
+
+- En la terminal ejecuta:
+
+```bash
+npm install netlify-cli -g
+```
+
+> Si eres usuario de Ubuntu, o alguna otra distribución basada en Ubuntu, utiliza este comando: `sudo npm install netlify-cli -g`
+
+- Una vez terminada la instalación, puedes comprobar la versión instalada y encontrar información básica de la herramienta, con el siguiente comando: 
+
+```bash
+netlify
+```
+
+Para ejecutar tu proyecto de manera local utiliza:
+
+```bash
+netlify dev
+```
+
+Debería abrirse tu proyecto automáticamente en el navegador.
+
+> Si no se abre de forma automática, puedes ir al mensaje `Server now ready on http://localhost:[NUMERO]` e ingresar al link haciendo clic con la tecla `Ctrl` presionada. 
+
+> Para dejar de ejecutar el servidor presiona `Ctrl` + `C` en la terminal de Visual Studio Code. 
 
 ### Compartir Proyecto
 
