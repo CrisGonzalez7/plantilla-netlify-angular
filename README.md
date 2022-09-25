@@ -17,6 +17,7 @@ Este es un proyecto angular básico que contiene todo lo necesario para implemen
 - [Trabajando con GitHub](#trabajando-con-github)
   - [Mezclando con Main](#mezclando-con-main)
 - [Configurando Netlify con GitHub](#configurando-netlify-con-github)
+- [Agradecimientos](#agradecimientos)
 - [FAQs](#faqs)
   - [Repositorio Public y Private](#repositorio-public-y-private)
 
@@ -349,6 +350,10 @@ Por último, haz clic en el link de tu sitio para verificar que se haya desplega
 
 Desde este momento, cada vez que actualices la rama `Main`, los cambios se verán reflejados en Netifly de forma automática. 
 
+## Agradecimientos
+
+Si este tutorial fue de ayuda para ti, te invito a que me agradezcas dándome una estrella en el [Proyecto Original](https://github.com/veronica-gonzalez/plantilla-netlify-angular), compartiendo este tutorial en tus Redes Sociales, o directamente con tus amigos, y [comentando](https://github.com/veronica-gonzalez/template-para-netlify/issues/new) en caso de algún error o problema que hayas tenido. 
+
 ## FAQs
 
 ### Repositorio Public y Private
@@ -360,3 +365,4 @@ Básicamente, un repositorio público es visible a todo el público, es decir, t
 Un repositorio privado es uno en el cual solo tú y las personas que añadas como colaboradores pueden tener acceso al código.
 
 > *Volver a sección [Usar este Template](#usar-este-template)*
+
