@@ -154,7 +154,11 @@ Te saldrán dos opciones
 
 - Luego te aparecerá una linea que dice `Team`, selecciona el equipo que deseas utilizar y presiona `Enter`
 
-Te aparecerá una linea que dice `Site name`, y por defecto te entragará un nombre entre paréntesis, puedes cambiarlo de inmediato borrando la línea e introduciendo el nombre que deseas ponerle a tu sitio. Si no hay problemas con el nombre elegido, te saldrá un mensaje que dice `Site Created` y te entregará los siguientes detalles: 
+Te aparecerá una linea que dice `Site name`, y por defecto te entragará un nombre entre paréntesis, puedes cambiarlo de inmediato borrando la línea e introduciendo el nombre que deseas ponerle a tu sitio. 
+
+> Si te aparece el siguiente mensaje `Warning: test-template.netlify.app already exists. Please try a different slug.` significa que ya existe en Netlify un proyecto con ese nombre, para poder continuar debes modificar el nombre de proyecto hasta que encuentres uno que esté disponible.
+
+Si no hay problemas con el nombre elegido, te saldrá un mensaje que dice `Site Created` y te entregará los siguientes detalles: 
 
 `Admin URL`
 
