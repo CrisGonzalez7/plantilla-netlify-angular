@@ -78,7 +78,7 @@ También puedes ejecutar tu proyecto localmente utilizando [Netlify CLI](https:/
 
 Para iniciar la instalación sigue los siguientes pasos:
 
-- Abre un nuevo terminal haciendo clic en `+`en la sección de la terminal de Visual Studio Code. 
+- Abre un nuevo terminal haciendo clic en `+` en la sección de la terminal de Visual Studio Code. 
 
 - Luego, entra a la carpeta del proyecto con el comando:
 
@@ -148,11 +148,11 @@ Y también te preguntará:
 Te saldrán dos opciones 
 
 > ⇄  Connect this directory to an existing Netlify site 
->  +  Create & configure a new site 
+> +  Create & configure a new site 
  
-Selecciona `+  Create & configure a new site` utilizando las flechas `subir` y `bajar` de tu teclado y presiona `Enter`
+- Selecciona `+  Create & configure a new site` utilizando las flechas `subir` y `bajar` de tu teclado y presiona `Enter`
 
-Luego te aparecerá una linea que dice `Team`, selecciona el equipo que deseas utilizar y presiona `Enter`
+- Luego te aparecerá una linea que dice `Team`, selecciona el equipo que deseas utilizar y presiona `Enter`
 
 Te aparecerá una linea que dice `Site name`, y por defecto te entragará un nombre entre paréntesis, puedes cambiarlo de inmediato borrando la línea e introduciendo el nombre que deseas ponerle a tu sitio. Si no hay problemas con el nombre elegido, te saldrá un mensaje que dice `Site Created` y te entregará los siguientes detalles: 
 
