@@ -163,11 +163,11 @@ Luego haces clic en el botón `Generate token`
 
 🚨 Es importante que lo copies y lo utilices de inmediato ya que GitHub no te permite tener acceso nuevamente al token. 
 
-## Terminal VSCode
+### Terminal VSCode
 
-Volviendo al terminal de Visual Studio Code (VSCode), debes pegar el token de Github y luego te aparecerá una linea que dice `Your build command` y te recomiendo dejarlo por defecto, solo presiona `Enter` 
+Volviendo al terminal de Visual Studio Code (VSCode), debes pegar el token de Github y luego te aparecerá una linea que dice `Your build command`, debes dejarlo por defecto, solo presiona `Enter` 
 
-Luego te aparece otra linea que dice `Directory to deploy`, esta debes dejarla por defecto para no tener problemas al desplegar el sitio. 
+Luego te aparece otra linea que dice `Directory to deploy`, debes dejarla por defecto para no tener problemas al desplegar el sitio. 
 
 Si todo ha salido bien te aparecerá un mensaje que dice `Success! Netlify CI/CD Configured!`
 
@@ -181,7 +181,7 @@ Te abre una pestaña en el navegador con la página de administración de tu sit
 
 ## Configurando Repositorio Personal
 
-En este momento el sitio está linkeado al repositorio original, para poder linkearlo a un repositorio personal debes seguir los siguientes pasos: 
+En este momento el sitio está linkeado al [repositorio original](https://github.com/veronica-gonzalez/plantilla-netlify-angular/), para poder linkearlo a un repositorio personal debes seguir los siguientes pasos: 
 
 - Debes ir a [GitHub](https://github.com/), ingresar con tus datos o crear una cuenta si aún no estás logueado.
 - En la esquina superior derecha de tu perfil de GitHub, hacer clic en el botón `+`
