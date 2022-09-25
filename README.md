@@ -66,7 +66,7 @@ ng serve
 
 Si todo salió correctamente, te debería lanzar el siguiente mensaje `** Angular Live Development Server is listening on localhost:[NUMERO], open your browser on http://localhost:[NUMERO]/ **`
 
-Puedes ingresar directamente al link haciendo clic con la tecla `ctrl` presionada. 
+Puedes ingresar directamente al link haciendo clic con la tecla `Ctrl` presionada. 
 
 ¡Ya puedes empezar a trabajar en tu proyecto!
 
@@ -108,7 +108,8 @@ netlify dev
 
 Debería abrirse tu proyecto automáticamente en el navegador.
 
-> Si no se abre de forma automática, puedes ir al mensaje `Server now ready on http://localhost:[NUMERO]` e ingresar al link haciendo clic con la tecla `ctrl` presionada. 
+> Si no se abre de forma automática, puedes ir al mensaje `Server now ready on http://localhost:[NUMERO]` e ingresar al link haciendo clic con la tecla `Ctrl` presionada. 
+
 > Para dejar de ejecutar el servidor presiona `Ctrl` + `C` en la terminal de Visual Studio Code. 
 
 
