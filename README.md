@@ -70,7 +70,7 @@ Puedes ingresar directamente al link haciendo clic con la tecla `ctrl` presionad
 
 ¡Ya puedes empezar a trabajar en tu proyecto!
 
-> Para dejar de ejecutar el servidor presiona `ctrl` + `C` en la terminal de Visual Studio Code. 
+> Para dejar de ejecutar el servidor presiona `Ctrl` + `C` en la terminal de Visual Studio Code. 
 
 ## Netlify CLI
 
@@ -107,6 +107,10 @@ netlify dev
 ```
 
 Debería abrirse tu proyecto automáticamente en el navegador.
+
+> Si no se abre de forma automática, puedes ir al mensaje `Server now ready on http://localhost:[NUMERO]` e ingresar al link haciendo clic con la tecla `ctrl` presionada. 
+> Para dejar de ejecutar el servidor presiona `Ctrl` + `C` en la terminal de Visual Studio Code. 
+
 
 ### Compartir Proyecto
 
