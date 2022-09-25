@@ -128,12 +128,12 @@ Busca:
 angular-quickstart
 ```
 
-Debería aparecer `22 resultados en 9 archivos`
+Deberían aparecer `22 resultados en 9 archivos`
 
 - En la parte izquierda del buscador aparece una flecha `>`, haz clic ahí y te aparecerá un campo que dice `Reemplazar`. 
 - Pon el nombre de tu proyecto en ese campo.
 - En la parte derecha del campo, hay un botón que al poner el cursor sobre él dice `Reemplazar todo`
-- Haz clic en `Reemplazar todo` y te aparecerá un mensaje que dice `Reemplazar 22 apariciones en 9 archivos por `"[NOMBRE INGRESADO]"`
+- Haz clic en `Reemplazar todo` y te aparecerá un mensaje que dice `Reemplazar 22 apariciones en 9 archivos por "[NOMBRE INGRESADO]"`
 
 ### Compartir Proyecto
 
