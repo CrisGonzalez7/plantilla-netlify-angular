@@ -16,7 +16,7 @@ Este es un proyecto angular básico que contiene todo lo necesario para implemen
   - [Mezclando con Main](#mezclando-con-main)
 - [Configurando Netlify con GitHub](#configurando-netlify-con-github)
 - [FAQs](#faqs)
-  - [Repositorio Public y Private](#repo-public-private)
+  - [Repositorio Public y Private](#repositorio-public-y-private)
 
 ## Usar este Template
 
@@ -26,7 +26,7 @@ En `Repository name` coloca el nombre de tu proyecto.
 
 Selecciona si deseas que tu proyecto sea `Public` o `Private` 
 
-> Si no sabes qué opción seleccionar, revisa la sección [Repositorio Public y Private](#repo-public-private)
+> Si no sabes qué opción seleccionar, revisa la sección [Repositorio Public y Private](#repositorio-public-y-private)
 
 Haz clic en `Create repository from template`
 
