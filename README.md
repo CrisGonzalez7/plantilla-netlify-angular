@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Angular on Netlify Quick Start Template    
-=======
 # Plantilla de Angular para Netlify
->>>>>>> e8a918bda291fdd2547e063b2dd1e5f84a1f92b9
 ![netlify + angular logo](https://res.cloudinary.com/dzkoxrsdj/image/upload/v1646339469/angular_wzrs5o.png)
 
 Este es un proyecto angular básico que contiene todo lo necesario para implementarlo directamente en [Netlify](https://netlify.com). 
@@ -241,11 +236,4 @@ Luego que hayas elegido el repositorio, en la siguiente pantalla dejas la confgu
 
 Esperas a que termine de trabajar (puedes verificar el estado del sitio en `Production deploys`, y recargar la página hasta que diga `Publisher`. Haz clic en GitHub para verificar el repositorio linkeado y por último, haz clic en el link de tu sitio para verificar que se haya desplegado de forma correcta.
 
-<<<<<<< HEAD
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
-=======
-# netlify-prueba
->>>>>>> b7c2d4b0d06c43b72825567e3f0c913cd3288e81
-=======
 Desde este momento. cada vez que actualices la rama `Main` los cambiios se verán reflejados en Netifly de forma automática. 
->>>>>>> e8a918bda291fdd2547e063b2dd1e5f84a1f92b9
