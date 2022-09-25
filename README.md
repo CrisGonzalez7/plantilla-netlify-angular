@@ -9,6 +9,7 @@ Este es un proyecto angular básico que contiene todo lo necesario para implemen
   - [Clonar repositorio](#clonar-repositorio)
 - [Netlify CLI](#netlify-cli)
   - [Cambiar nombre al proyecto](#cambiar-nombre-al-proyecto)
+  - [Subir los cambios](#subir-los-cambios)
   - [Compartir Proyecto](#compartir-proyecto)
     - [Autorizar con Netlify](#autorizar-con-netlify)
     - [Token en GitHub](#token-en-github)
@@ -144,7 +145,7 @@ Y debería aparecer un listado con 9 archivos que han sufrido modificaciones.
 
 ### Subir los cambios
 
-Vamos a actualizar los archivos en GitHub para que contengan el nuevo nombre del proyecto. PAra esto vamos a verificar que esté bien linkeado nuestro proyecto con el repositorio de GitHub.
+Vamos a actualizar los archivos en GitHub para que contengan el nuevo nombre del proyecto. Para esto vamos a verificar que esté bien linkeado nuestro proyecto con el repositorio de GitHub.
 
 - Ejecuta el siguiente comando: 
 
@@ -173,6 +174,7 @@ git commit -m "[DESCRIPCION DEL COMMIT]"
 git push -u origin main
 ```
 
+> Si deseas verificar que los cambios fueron subidos correctamente, ingresa al link de tu repositorio y debería aparecer el nombre del commit que haz realizado.
 
 ### Compartir Proyecto
 
