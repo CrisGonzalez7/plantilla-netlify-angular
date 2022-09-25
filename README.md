@@ -206,8 +206,6 @@ Debe aparecer la URL de tu GitHub
 
 ### Primer Commit
 
-# Revisar esta parte
-
 Te recomiendo trabajar en una rama aparte de `main`.
 
 - Para crear una rama ejecuta: 
