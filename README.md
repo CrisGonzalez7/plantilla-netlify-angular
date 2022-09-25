@@ -9,8 +9,8 @@ Este es un proyecto angular básico que contiene todo lo necesario para implemen
   - [Clonar repositorio](#clonar-repositorio)
 - [Netlify CLI](#netlify-cli)
   - [Compartir Proyecto](#compartir-proyecto)
-  - [Autorizar con Netlify](#autorizar-con-netlify)
-  - [Token en GitHub](#token-en-github)
+    - [Autorizar con Netlify](#autorizar-con-netlify)
+    - [Token en GitHub](#token-en-github)
   - [Publicando el Proyecto](#publicando-el-proyecto)
 - [Configurando Repositorio Personal](#configurando-repositorio-personal)
   - [Subiendo cambios](#subiendo-cambios)
@@ -176,11 +176,11 @@ Luego te pedirá acceso a tu cuenta de GitHub para configurar Webhooks y Deploy 
   - [Autorizar con Netlify](#autorizar-con-netlify)
   - [Token en GitHub](#token-en-github)
 
-### Autorizar con Netlify
+#### Autorizar con Netlify
 
 
 
-### Token en GitHub
+#### Token en GitHub
 
 Para poder obtener un Token en [GitHub](https://github.com/), en el menú debes ir a `settings`, luego en las opciones de la columna izquierda haces clic en `Developer Settings`. Después vas a `Personal access tokens` y en la esquina superior derecha haces clic en el botón `Generate new token`. 
 
