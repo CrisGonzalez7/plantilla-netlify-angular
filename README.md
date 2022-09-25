@@ -240,9 +240,6 @@ Para poder subir los cambios a GitHub ejecuta:
 
 ```bash
 git add .
-```
-
-```bash
 git commit -m "[DESCRIPCION DEL COMMIT]"
 ```
 
@@ -254,19 +251,19 @@ git push -u origin [NOMBRE DE LA RAMA]
 
 ### Mezclando con Main 
 
-Para mezclar la rama creada con la rama main (que es la principal), debes ir al link de tu repositorio en GitHub (si lo olvidaste puedes acceder a él con el comando `git remote -v`) y es probable que te aparezca un mensaje como este ` [NOMBRE DE LA RAMA] had recent pushes [TIEMPO] ago`, y al lado un botón que diga `Compare & pull request`
+Para mezclar la rama creada con la rama main (que es la principal), debes ir al link de tu repositorio en [GitHub](https://github.com/) (si lo olvidaste puedes acceder a él con el comando `git remote -v`) y es probable que te aparezca un mensaje como este ` [NOMBRE DE LA RAMA] had recent pushes [TIEMPO] ago`, y al lado un botón que diga `Compare & pull request`
 
 Si no te sale ese mensaje puedes hacer clic en `main` luego ir a la rama en cuestión y en `contribute` hacer clic en `Open Pull Request`
 
-En Write puedes escribir una descripción de tu proyecto si quieres y presionar `Create pull request`
+En Write puedes escribir una descripción de tu proyecto (si quieres) y presionar `Create pull request`
 
-Luego si te dice `This branch has no conflicts with the base branch` significa que está todo correcto y al hacer clic en `Merge pull request` y luego en `Confirm merge` los cambios serán enviados a la rama `main`
+Luego, si te dice `This branch has no conflicts with the base branch` significa que está todo correcto y al hacer clic en `Merge pull request` y luego en `Confirm merge` los cambios serán enviados a la rama `main`
 
 Puedes ir a la pestaña `Code` para ver los cambios
 
 ## Configurando Netlify con GitHub
 
-En este momento tu proyecto en Netlify está linkeado con el [repositorio original] (https://github.com/veronica-gonzalez/plantilla-netlify-angular), para modificar esto en la terminal de VSCode escribe el siguiente comando 
+En este momento tu proyecto en Netlify está linkeado con el [repositorio original](https://github.com/veronica-gonzalez/plantilla-netlify-angular), para modificar esto, ve a la terminal de VSCode y escribe el siguiente comando:
 
 ```bash
 netlify open
