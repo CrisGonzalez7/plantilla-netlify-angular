@@ -5,7 +5,8 @@ Este es un proyecto angular básico que contiene todo lo necesario para implemen
 
 ## Índice:
 
-- [Clonar Repositorio](#clonar-repositorio)
+- [Usar este Template](#usar-este-template)
+  - [Clonar repositorio](#clonar-repositorio)
 - [Netlify CLI](#netlify-cli)
   - [Compartir Proyecto](#compartir-proyecto)
   - [Token en GitHub](#token-en-github)
@@ -14,10 +15,24 @@ Este es un proyecto angular básico que contiene todo lo necesario para implemen
   - [Subiendo cambios](#subiendo-cambios)
   - [Mezclando con Main](#mezclando-con-main)
 - [Configurando Netlify con GitHub](#configurando-netlify-con-github)
+- [FAQs](#faqs)
+  - [Repositorio Public y Private](#repo-public-private)
 
-## Clonar Repositorio
+## Usar este Template
 
-Para clonar facilmente este repositorio sigue los siguientes pasos:
+Para usar este Template, haz clic en el boton `Use this Template`
+
+En `Repository name` coloca el nombre de tu proyecto. 
+
+Selecciona si deseas que tu proyecto sea `Public` o `Private` 
+
+> Si no sabes qué opción seleccionar, revisa la sección [Repositorio Public y Private](#repo-public-private)
+
+Haz clic en `Create repository from template`
+
+## Clonar repositorio
+
+Para clonar tu repositorio y realizar modificaciones desde tu PC, sigue los siguientes pasos:
 - Crea una carpeta en tu computador donde almacenarás el proyecto
 - Abre la carpeta con [Visual Studio Code](https://code.visualstudio.com)
 - Ve al menú superior de Visual Studio Code y abre un terminal
@@ -284,3 +299,13 @@ Luego de esto, debajo del link de tu sitio debería aparecer el repositorio de G
 Por último, haz clic en el link de tu sitio para verificar que se haya desplegado de forma correcta.
 
 Desde este momento, cada vez que actualices la rama `Main`, los cambios se verán reflejados en Netifly de forma automática. 
+
+## FAQs
+
+### Repositorio Public y Private
+
+*¿Cuál es la diferencia entre un repositorio público y uno privado?*
+
+Básicamente, un repositorio público es visible a todo el público, es decir, tu código puede ser visto por cualquier persona que tenga acceso al link de tu repositorio. 
+
+Un repositorio privado es uno en el cual solo tú y las personas que añadas como colaboradores pueden tener acceso al código.
