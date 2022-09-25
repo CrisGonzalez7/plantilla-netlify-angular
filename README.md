@@ -15,7 +15,6 @@ Este es un proyecto angular básico que contiene todo lo necesario para implemen
     - [Token en GitHub](#token-en-github)
   - [Publicando el Proyecto](#publicando-el-proyecto)
 - [Trabajando con GitHub](#trabajando-con-github)
-  - [Subiendo cambios](#subiendo-cambios)
   - [Mezclando con Main](#mezclando-con-main)
 - [Configurando Netlify con GitHub](#configurando-netlify-con-github)
 - [FAQs](#faqs)
