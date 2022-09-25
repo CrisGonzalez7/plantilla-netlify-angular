@@ -28,10 +28,16 @@ Para clonar facilmente este repositorio sigue los siguientes pasos:
 git clone https://github.com/veronica-gonzalez/plantilla-netlify-angular.git
 ```
 
-- Entra a la carpeta del proyecto con el comando:
+- Para cambiarle el nombre a tu proyecto ejecuta:
 
 ```bash
-cd angular-quickstart
+mv plantilla-netlify-angular [NOMBRE DE TU PROYECTO] 
+```
+
+- Luego, entra a la carpeta del proyecto con el comando:
+
+```bash
+cd [NOMBRE CARPETA]
 ```
 
 Para instalar los paquetes necesarios ejecuta el siguiente comando:
@@ -46,6 +52,12 @@ Para verificar que esté todo funcionando de manera correcta, puedes levantar un
 ng serve
 ```
 
+> Si te lanza el siguiente mensaje `? Port 4200 is already in use. Would you like to use a different port?` pon la letra `y` y presiona `enter`
+
+Si todo salió correctamente, te debería lanzar el siguiente mensaje `** Angular Live Development Server is listening on localhost:[NUMERO], open your browser on http://localhost:[NUMERO]/ **
+
+Puedes ingresar directamente al link haciendo clic con la tecla `ctrl` presionada. 
+
 ¡Ya puedes empezar a trabajar en tu proyecto!
 
 ## Netlify CLI
@@ -53,6 +65,9 @@ ng serve
 También puedes ejecutar tu proyecto localmente utilizando [Netlify CLI](https://docs.netlify.com/cli/get-started/)
 
 Para iniciar la instalación sigue los siguientes pasos:
+
+- Abre un nuevo terminal haciendo clic en `+`en la sección de la terminal de Visual Studio Code. 
+
 - En la terminal ejecuta:
 
 ```bash
@@ -61,7 +76,7 @@ npm install netlify-cli -g
 
 > Si eres usuario de Ubuntu, o alguna otra distribución basada en Ubuntu, utiliza este comando: `sudo npm install netlify-cli -g`
 
-- Una vez terminada la instalación, puedes comprobar la versión instalada y encontrar información básica de la herramienta con el siguiente comando: 
+- Una vez terminada la instalación, puedes comprobar la versión instalada y encontrar información básica de la herramienta, con el siguiente comando: 
 
 ```bash
 netlify
