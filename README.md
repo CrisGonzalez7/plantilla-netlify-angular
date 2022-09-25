@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Angular on Netlify Quick Start Template    
 ![netlify + angular logo](https://res.cloudinary.com/dzkoxrsdj/image/upload/v1646339469/angular_wzrs5o.png)
 
@@ -126,3 +127,6 @@ Hope this template helps :) Happy coding 👩🏻‍💻!
 ---
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
+=======
+# netlify-prueba
+>>>>>>> b7c2d4b0d06c43b72825567e3f0c913cd3288e81
