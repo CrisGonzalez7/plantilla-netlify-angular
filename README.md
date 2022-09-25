@@ -36,10 +36,11 @@ Para clonar tu repositorio y realizar modificaciones desde tu PC, sigue los sigu
 - Crea una carpeta en tu computador donde almacenarás el proyecto
 - Abre la carpeta con [Visual Studio Code](https://code.visualstudio.com)
 - Ve al menú superior de Visual Studio Code y abre un terminal
+- En el repositorio que haz creado, haz clic en `Code` y copia el link que aparece en `HTTPS`
 - Ejecuta el siguiente comando 
 
 ```bash
-git clone https://github.com/veronica-gonzalez/plantilla-netlify-angular.git
+git clone [PEGA AQUÍ EL LINK DE TU REPOSITORIO] 
 ```
 
 - Para cambiarle el nombre a tu proyecto ejecuta:
