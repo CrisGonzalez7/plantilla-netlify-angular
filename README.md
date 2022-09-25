@@ -68,6 +68,12 @@ Para iniciar la instalación sigue los siguientes pasos:
 
 - Abre un nuevo terminal haciendo clic en `+`en la sección de la terminal de Visual Studio Code. 
 
+- Luego, entra a la carpeta del proyecto con el comando:
+
+```bash
+cd [NOMBRE CARPETA]
+```
+
 - En la terminal ejecuta:
 
 ```bash
@@ -87,6 +93,8 @@ Para ejecutar tu proyecto de manera local utiliza:
 ```bash
 netlify dev
 ```
+
+Debería abrirse tu proyecto automáticamente en el navegador.
 
 ### Compartir Proyecto
 
