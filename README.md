@@ -275,8 +275,12 @@ Para que compruebes desde dónde se está desplegando tu sitio, debajo del link 
 
 Para modificarlo vuelve a Netlify y haz clic en `Site Settings`. Luego en el menú de tu izquierda haz clic en `Build & Deploy`. Luego en `Manage repository` ve a `Link to a different repository` y conecta GitHub con Netlify. Selecciona el repositorio que quieras linkear con Netlify. Si no te aparece puedes hacer clic en `Can’t see your repo here? Configure the Netlify ap on GitHub`.
 
-Luego que hayas elegido el repositorio, en la siguiente pantalla dejas la confguraión tal como está y haces clic en `Deploy site`.
+Luego que hayas elegido el repositorio, en la siguiente pantalla dejas la configuración tal como está, y haces clic en `Deploy site`.
 
-Esperas a que termine de trabajar (puedes verificar el estado del sitio en `Production deploys`, y recargar la página hasta que diga `Publisher`. Haz clic en GitHub para verificar el repositorio linkeado y por último, haz clic en el link de tu sitio para verificar que se haya desplegado de forma correcta.
+Esperas a que termine de trabajar (puedes verificar el estado del sitio en `Production deploys`, y recargar la página hasta que diga `Publisher`). 
 
-Desde este momento. cada vez que actualices la rama `Main` los cambiios se verán reflejados en Netifly de forma automática. 
+Luego de esto, debajo del link de tu sitio debería aparecer el linkeado.
+
+Por último, haz clic en el link de tu sitio para verificar que se haya desplegado de forma correcta.
+
+Desde este momento, cada vez que actualices la rama `Main`, los cambiios se verán reflejados en Netifly de forma automática. 
