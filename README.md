@@ -30,7 +30,7 @@ Selecciona si deseas que tu proyecto sea `Public` o `Private`
 
 Haz clic en `Create repository from template`
 
-## Clonar repositorio
+### Clonar repositorio
 
 Para clonar tu repositorio y realizar modificaciones desde tu PC, sigue los siguientes pasos:
 - Crea una carpeta en tu computador donde almacenarás el proyecto
@@ -41,12 +41,6 @@ Para clonar tu repositorio y realizar modificaciones desde tu PC, sigue los sigu
 
 ```bash
 git clone [PEGA AQUÍ EL LINK DE TU REPOSITORIO] 
-```
-
-- Para cambiarle el nombre a tu proyecto ejecuta:
-
-```bash
-mv plantilla-netlify-angular [NOMBRE DE TU PROYECTO] 
 ```
 
 - Luego, entra a la carpeta del proyecto con el comando:
