@@ -14,7 +14,7 @@ Este es un proyecto angular básico que contiene todo lo necesario para implemen
     - [Autorizar con Netlify](#autorizar-con-netlify)
     - [Token en GitHub](#token-en-github)
   - [Publicando el Proyecto](#publicando-el-proyecto)
-- [Configurando Repositorio Personal](#configurando-repositorio-personal)
+- [Trabajando con GitHub](#trabajando-con-github)
   - [Subiendo cambios](#subiendo-cambios)
   - [Mezclando con Main](#mezclando-con-main)
 - [Configurando Netlify con GitHub](#configurando-netlify-con-github)
@@ -277,39 +277,9 @@ netlify open
 
 Te abre una pestaña en el navegador con la página de administración de tu sitio. 
 
-## Configurando Repositorio Personal
+> Si no se abre de forma automática, puedes ingresar al link haciendo clic con la tecla Ctrl presionada.
 
-En este momento el sitio está linkeado al [repositorio original](https://github.com/veronica-gonzalez/plantilla-netlify-angular/), para poder linkearlo a un repositorio personal debes seguir los siguientes pasos: 
-
-- Debes ir a [GitHub](https://github.com/), ingresar con tus datos o crear una cuenta si aún no estás logueado.
-- En la esquina superior derecha de tu perfil de GitHub, hacer clic en el botón `+`
-- Ingresar a `New repository`
-- En `Repository name` ingresa el nombre con el que deseas identificar a tu sitio
-- Luego ingresa a `Create repository`
-- En `Quick setup — if you’ve done this kind of thing before` copia la URL que aparece en `HTTPS`
-
-En el terminal de VSCode ejecuta el siguiente comando: 
-
-```bash
-git remote set-url origin [PEGA AQUÍ LA URL QUE COPIASTE DE GITHUB]
-```
-
-Verifica si se actualizó la URL con el siguiente comando: 
-
-
-```bash
-git remote -v
-```
-
-Debe aparecer la URL de tu GitHub. 
-
-Para subir tu proyecto a GitHub ejecuta:
-
-```bash
-git push -u origin main
-```
-
-### Subiendo cambios
+## Trabajando con GitHub 
 
 Te recomiendo trabajar en una rama aparte de `main`.
 
