@@ -359,4 +359,4 @@ Básicamente, un repositorio público es visible a todo el público, es decir, t
 
 Un repositorio privado es uno en el cual solo tú y las personas que añadas como colaboradores pueden tener acceso al código.
 
-> Volver a [Usar este Template](#usar-este-template)
+> *Volver a sección [Usar este Template](#usar-este-template)*
