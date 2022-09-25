@@ -9,8 +9,9 @@ Este es un proyecto angular básico que contiene todo lo necesario para implemen
   - [Clonar repositorio](#clonar-repositorio)
 - [Netlify CLI](#netlify-cli)
   - [Compartir Proyecto](#compartir-proyecto)
+  - [Autorizar con Netlify](#autorizar-con-netlify)
   - [Token en GitHub](#token-en-github)
-  - [Terminal VSCode](#terminal-vscode)
+  - [Publicando el Proyecto](#publicando-el-proyecto)
 - [Configurando Repositorio Personal](#configurando-repositorio-personal)
   - [Subiendo cambios](#subiendo-cambios)
   - [Mezclando con Main](#mezclando-con-main)
@@ -170,7 +171,14 @@ Puedes hacer clic en el link de `Admin URL` y acceder a las configuraciones de t
 
 > No se desplegará tu sitio hasta que ejecutes el siguiente paso:  
 
-Luego te pedirá acceso a tu cuenta de GitHub para configurar Webhooks y Deploy Keys. Puedes autorizar a través de Netlify o con un token de GitHub. Selecciona la opción que mejor te parezca. En mi caso prefiero autorizar con un Token de GitHub. 
+Luego te pedirá acceso a tu cuenta de GitHub para configurar Webhooks y Deploy Keys. Puedes autorizar a través de Netlify o con un token de GitHub. Selecciona la opción que mejor te parezca. 
+
+  - [Autorizar con Netlify](#autorizar-con-netlify)
+  - [Token en GitHub](#token-en-github)
+
+### Autorizar con Netlify
+
+
 
 ### Token en GitHub
 
@@ -184,9 +192,11 @@ Luego haces clic en el botón `Generate token`
 
 🚨 Es importante que lo copies y lo utilices de inmediato ya que GitHub no te permite tener acceso nuevamente al token. 
 
-### Terminal VSCode
+Volviendo al terminal de Visual Studio Code (VSCode), debes pegar el token de Github para continuar.
 
-Volviendo al terminal de Visual Studio Code (VSCode), debes pegar el token de Github y luego te aparecerá una linea que dice `Your build command`, debes dejarlo por defecto, solo presiona `Enter` 
+### Publicando el Proyecto
+
+Te aparecerá una linea que dice `Your build command`, debes dejarlo por defecto, solo presiona `Enter` 
 
 Luego te aparece otra linea que dice `Directory to deploy`, debes dejarla por defecto para no tener problemas al desplegar el sitio. 
 
