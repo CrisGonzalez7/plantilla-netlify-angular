@@ -48,6 +48,7 @@ git clone [PEGA AQUÍ EL LINK DE TU REPOSITORIO]
 ```bash
 cd [NOMBRE CARPETA]
 ```
+> El nombre de la carpeta es el mismo nombre que pusiste en el repositorio. 
 
 Para instalar los paquetes necesarios ejecuta el siguiente comando:
 
@@ -61,13 +62,15 @@ Para verificar que esté todo funcionando de manera correcta, puedes levantar un
 ng serve
 ```
 
-> Si te lanza el siguiente mensaje `? Port 4200 is already in use. Would you like to use a different port?` pon la letra `y` y presiona `enter`
+> Si te lanza el siguiente mensaje `? Port 4200 is already in use. Would you like to use a different port?` pon la letra `Y` y presiona `enter`
 
 Si todo salió correctamente, te debería lanzar el siguiente mensaje `** Angular Live Development Server is listening on localhost:[NUMERO], open your browser on http://localhost:[NUMERO]/ **`
 
 Puedes ingresar directamente al link haciendo clic con la tecla `ctrl` presionada. 
 
 ¡Ya puedes empezar a trabajar en tu proyecto!
+
+> Para dejar de ejecutar el servidor presiona `ctrl` + `C` en la terminal de Visual Studio Code. 
 
 ## Netlify CLI
 
