@@ -8,6 +8,7 @@ Este es un proyecto angular básico que contiene todo lo necesario para implemen
 - [Usar este Template](#usar-este-template)
   - [Clonar repositorio](#clonar-repositorio)
 - [Netlify CLI](#netlify-cli)
+  - [Cambiar nombre al proyecto](#cambiar-nombre-al-proyecto)
   - [Compartir Proyecto](#compartir-proyecto)
     - [Autorizar con Netlify](#autorizar-con-netlify)
     - [Token en GitHub](#token-en-github)
@@ -113,6 +114,13 @@ Debería abrirse tu proyecto automáticamente en el navegador.
 
 > Para dejar de ejecutar el servidor presiona `Ctrl` + `C` en la terminal de Visual Studio Code. 
 
+### Cambiar nombre al proyecto
+
+En este momento tu proyecto tiene el nombre `angular-quickstart` por defecto. 
+
+Para ponerle un nombre personalizado, en VSCode presiona `Ctrl` + `Shift` + `F`, esto debería abrirte el buscador
+
+> Si no te funciona, puedes ir 
 
 ### Compartir Proyecto
 
@@ -181,7 +189,7 @@ Luego te pedirá acceso a tu cuenta de GitHub para configurar Webhooks y Deploy 
 - Selecciona `Authorize with GitHub through app.netlify.com`. Esto te abrirá una pestaña en el navegador que dice `Sign in to Netlify CLI`
 - En `Connect to Git provider` selecciona GitHub.
 
-Te aparecerá el siguiente mensaje: `Logged In. You're now logged into Netlify CLI with your github credentials. Please close this window.` Y ya uedes cerrar esa ventana.
+Te aparecerá el siguiente mensaje: `Logged In. You're now logged into Netlify CLI with your github credentials. Please close this window.` Ya puedes cerrar esa ventana.
 
 Una vez hayas realizado todos los pasos ve a la sección [Publicando el Proyecto](#publicando-el-proyecto)
 
@@ -201,9 +209,9 @@ Volviendo al terminal de Visual Studio Code (VSCode), debes pegar el token de Gi
 
 ### Publicando el Proyecto
 
-Te aparecerá una linea que dice `Your build command`, debes dejarlo por defecto, solo presiona `Enter` 
+- En la terminal de VSCode te aparecerá una linea que dice `Your build command`, debes dejarlo por defecto, solo presiona `Enter` 
 
-Luego te aparece otra linea que dice `Directory to deploy`, debes dejarla por defecto para no tener problemas al desplegar el sitio. 
+- Luego te aparece otra linea que dice `Directory to deploy`, debes dejarla por defecto para no tener problemas al desplegar el sitio. 
 
 Si todo ha salido bien te aparecerá un mensaje que dice `Success! Netlify CI/CD Configured!`
 
