@@ -156,7 +156,7 @@ Te saldrán dos opciones
 
 Te aparecerá una linea que dice `Site name`, y por defecto te entragará un nombre entre paréntesis, puedes cambiarlo de inmediato borrando la línea e introduciendo el nombre que deseas ponerle a tu sitio. 
 
-> Si te aparece el siguiente mensaje `Warning: test-template.netlify.app already exists. Please try a different slug.` significa que ya existe en Netlify un proyecto con ese nombre, para poder continuar debes modificar el nombre de proyecto hasta que encuentres uno que esté disponible.
+> Si te aparece el siguiente mensaje `Warning: [NOMBRE].netlify.app already exists. Please try a different slug.` significa que ya existe en Netlify un proyecto con ese nombre, para poder continuar debes modificar el nombre del proyecto hasta que encuentres uno que esté disponible, o usar el que te entraga por defecto (puedes cambiarlo más adelante).
 
 Si no hay problemas con el nombre elegido, te saldrá un mensaje que dice `Site Created` y te entregará los siguientes detalles: 
 
