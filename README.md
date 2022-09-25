@@ -134,6 +134,11 @@ Deberían aparecer `22 resultados en 9 archivos`
 - Pon el nombre de tu proyecto en ese campo.
 - En la parte derecha del campo, hay un botón que al poner el cursor sobre él dice `Reemplazar todo`
 - Haz clic en `Reemplazar todo` y te aparecerá un mensaje que dice `Reemplazar 22 apariciones en 9 archivos por "[NOMBRE INGRESADO]"`
+- Haz clic en `Reemplazar`
+
+Para verificar que los cambios se guardaron correctamente `Ctrl` + `Shift` + `G`, esto debería abrirte el panel de Git.
+
+> Si no te funciona, puedes ir directamente a la opción bajo la lupa en el panel izquierdo, la cual se llama `Control de código fuente`.
 
 ### Compartir Proyecto
 
