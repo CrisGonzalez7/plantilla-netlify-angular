@@ -147,11 +147,13 @@ Te aparecerá una linea que dice `Site name`, y por defecto te entragará un nom
 
 Puedes hacer clic en el link de `Admin URL` y acceder a las configuraciones de tu sitio. También puedes hacer clic en el link de `URL` y ver el sitio desplegado. 
 
+> No se desplegará tu sitio hasta que ejecutes el siguiente paso:  
+
 Luego te pedirá acceso a tu cuenta de GitHub para configurar Webhooks y Deploy Keys. Puedes autorizar a través de Netlify o con un token de GitHub. Selecciona la opción que mejor te parezca. En mi caso prefiero autorizar con un Token de GitHub. 
 
 ### Token en GitHub
 
-Para poder obtener un Token en GitHub, en el menú debes ir a `settings`, luego en las opciones de la columna izquierda haces clic en `Developer Settings`. Después vas a `Personal access tokens` y en la esquina superior derecha haces clic en el botón `Generate new token`. 
+Para poder obtener un Token en [GitHub](https://github.com/), en el menú debes ir a `settings`, luego en las opciones de la columna izquierda haces clic en `Developer Settings`. Después vas a `Personal access tokens` y en la esquina superior derecha haces clic en el botón `Generate new token`. 
 
 En `Note` colocas un nombre que identifique al Token, ejemplo `Token para Netlify`
 En `Expiration` te recomiendo dejarlo en `30 days`
