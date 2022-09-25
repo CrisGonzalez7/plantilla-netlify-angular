@@ -120,7 +120,20 @@ En este momento tu proyecto tiene el nombre `angular-quickstart` por defecto.
 
 Para ponerle un nombre personalizado, en VSCode presiona `Ctrl` + `Shift` + `F`, esto debería abrirte el buscador
 
-> Si no te funciona, puedes ir 
+> Si no te funciona, puedes ir directamente a la lupa en el panel izquierdo y esto te abrirá el buscador.
+
+Busca: 
+
+```bash
+angular-quickstart
+```
+
+Debería aparecer `22 resultados en 9 archivos`
+
+- En la parte izquierda del buscador aparece una flecha `>`, haz clic ahí y te aparecerá un campo que dice `Reemplazar`. 
+- Pon el nombre de tu proyecto en ese campo.
+- En la parte derecha del campo, hay un botón que al poner el cursor sobre él dice `Reemplazar todo`
+- Haz clic en `Reemplazar todo` y te aparecerá un mensaje que dice `Reemplazar 22 apariciones en 9 archivos por `"[NOMBRE INGRESADO]"`
 
 ### Compartir Proyecto
 
